@@ -1,0 +1,41 @@
+$bg-dark: #0f172a;
+$accent: #4ade80;
+$text-light: #f8fafc;
+
+.navbar {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba($bg-dark, 0.95);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2rem;
+  backdrop-filter: blur(6px);
+  color: $text-light;
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $accent;
+  }
+
+  &__links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+    a {
+      color: $text-light;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+}
