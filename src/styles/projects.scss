@@ -1,0 +1,33 @@
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 72rem;
+  margin: auto;
+}
+
+.project-card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.2rem;
+  padding: 1.2rem;
+}
+
+.project-card {
+  background-color: #e7e6e6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}

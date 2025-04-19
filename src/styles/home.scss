@@ -7,21 +7,21 @@ $accent: #4ade80;
   padding: 0;
   font-family: 'Inter', sans-serif;
 }
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  background-color: $bg-color;
+
 }
 .home {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: $bg-color;
+  flex-direction: column;
   padding: 2rem;
   color: $text-color;
   text-align: center;
-
   &__intro {
     max-width: 600px;
   }
