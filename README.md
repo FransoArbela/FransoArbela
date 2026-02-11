@@ -1,30 +1,31 @@
 # Samal Ibrahim
 
-Front-End Developer focused on building structured and responsive web applications using React and TypeScript.
+Front-end developer working mainly with React and TypeScript.
 
-## About Me
+I’m currently finishing my Front-End studies at Noroff, where I build responsive web applications with API integration and structured component architecture.
 
-I am a Front-End Development student at Noroff with a strong interest in building clean, scalable user interfaces and understanding how systems work under the hood.
+Alongside that, I completed CS50 (Harvard) to strengthen my understanding of computer science fundamentals like algorithms, data structures, C programming, SQL, and backend basics with Python (Flask).
 
-Through Harvard's CS50, I strengthened my foundation in computer science, including algorithms, data structures, C programming, SQL, and backend development with Python (Flask).
+I care about writing clean code, understanding how things work under the hood, and gradually moving toward full-stack development.
 
-My long-term goal is to grow into a full-stack developer by deepening my backend and architectural knowledge.
+## Tech
 
-## Tech Stack
+React  
+TypeScript  
+JavaScript  
+HTML / CSS  
+Tailwind  
 
-Frontend:
-- React
-- TypeScript
-- JavaScript (ES6+)
-- HTML5 / CSS3
-- Tailwind CSS
+Python (Flask)  
+SQL  
 
-Backend Fundamentals:
-- Python (Flask)
-- SQL
-- REST APIs
-- Authentication & session handling
+Git & GitHub  
 
+## Focus Right Now
+
+- Writing better React architecture
+- Strengthening backend fundamentals
+- Building projects that solve real problems
 Tools:
 - Git & GitHub
 - Figma
