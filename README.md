@@ -1,102 +1,49 @@
-# Vite + React + TypeScript + Biome + Tailwind CSS Template
+# Samal Ibrahim
 
-A modern React template with Vite, TypeScript, Biome for linting/formatting, and Tailwind CSS for styling.
+Front-End Developer focused on building structured and responsive web applications using React and TypeScript.
 
-## 🚀 Features
+## About Me
 
-- ⚡️ **Vite** - Lightning fast build tool
-- ⚛️ **React 19** - Latest React version with TypeScript
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 🔧 **Biome** - Fast formatter and linter (replaces ESLint + Prettier)
-- 📦 **TypeScript** - Type safety and better developer experience
-- 🎯 **VS Code** - Recommended extensions and settings included
+I am a Front-End Development student at Noroff with a strong interest in building clean, scalable user interfaces and understanding how systems work under the hood.
 
-## 📋 Prerequisites
+Through Harvard's CS50, I strengthened my foundation in computer science, including algorithms, data structures, C programming, SQL, and backend development with Python (Flask).
 
-- Node.js 18+ and npm
+My long-term goal is to grow into a full-stack developer by deepening my backend and architectural knowledge.
 
-## 🛠️ Getting Started
+## Tech Stack
 
-### Using this template
+Frontend:
+- React
+- TypeScript
+- JavaScript (ES6+)
+- HTML5 / CSS3
+- Tailwind CSS
 
-1. Click "Use this template" button at the top of the repository
-2. Clone your new repository
-3. Install dependencies:
+Backend Fundamentals:
+- Python (Flask)
+- SQL
+- REST APIs
+- Authentication & session handling
 
-```bash
-npm install
-```
+Tools:
+- Git & GitHub
+- Figma
 
-### Development
+## Projects
 
-Start the development server:
+You can find my featured projects below. Most focus on:
+- API integration
+- Component architecture
+- Responsive layouts
+- State management
 
-```bash
-npm run dev
-```
+## Currently Working On
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+- Improving backend skills
+- Writing cleaner and more scalable React code
+- Strengthening problem-solving through algorithm practice
 
-## 📜 Available Scripts
+## Contact
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build locally
-- `npm run lint` - Run Biome linter
-- `npm run lint:fix` - Fix linting issues automatically
-- `npm run format` - Format code with Biome
-
-## 🎨 Styling with Tailwind CSS
-
-This template uses Tailwind CSS for styling. The configuration is in `tailwind.config.js`.
-
-Example usage:
-
-```tsx
-<button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
-	Click me
-</button>
-```
-
-## 🔧 Code Quality with Biome
-
-Biome is configured to:
-
-- Format code on save (in VS Code)
-- Organize imports automatically
-- Enforce code quality rules
-- Use tabs for indentation
-- Use double quotes for strings
-
-Configuration is in `biome.json`.
-
-## 📁 Project Structure
-
-```
-├── src/
-│   ├── assets/         # Static assets (images, fonts, etc.)
-│   ├── App.tsx         # Main App component
-│   ├── main.tsx        # Application entry point
-│   └── index.css       # Global styles with Tailwind directives
-├── public/             # Public static files
-├── .vscode/            # VS Code settings and recommended extensions
-├── biome.json          # Biome configuration
-├── tailwind.config.js  # Tailwind CSS configuration
-├── tsconfig.json       # TypeScript configuration
-└── vite.config.ts      # Vite configuration
-```
-
-## 🔌 Recommended VS Code Extensions
-
-The following extensions will be recommended when you open this project:
-
-- **Biome** - Code formatter and linter
-- **Tailwind CSS IntelliSense** - Autocomplete for Tailwind classes
-
-## 📝 License
-
-MIT
-
-## 🤝 Contributing
-
-Feel free to use this template for your projects!
+Email: ibrahim.samal1999@gmail.com
+LinkedIn: linkedin.com/in/samal-ibrahim
