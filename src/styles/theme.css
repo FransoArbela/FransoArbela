@@ -1,0 +1,53 @@
+:root {
+	/* root variables */
+	color-scheme: light;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* fonts */
+	--font-family-logo: "Poppins", sans-serif;
+	--font-family-heading: "Poppins", sans-serif;
+	--font-family-button: "Noto Sans", serif;
+	--font-family-p: "Noto Sans", sans-serif;
+
+	/* colors */
+	--text: #050316;
+	--text-secondary: #f4f4f4;
+
+	--bg: #fafafa;
+
+	--primary: #6e45a1;
+	--secondary: #c7c3f3;
+	--accent: #4584a1;
+
+	--footer-bg: #33283f;
+}
+
+@theme {
+	--font-family-logo: var(--font-family-logo);
+	--font-family-heading: var(--font-family-heading);
+	--font-family-button: var(--font-family-button);
+	--font-family-p: var(--font-family-p);
+
+	/* Colors */
+	--color-bg: var(--bg);
+
+	--color-primary: var(--primary);
+
+	--color-text: var(--text);
+	--color-text-secondary: var(--text-secondary);
+	
+	--color-accent: var(--accent);
+	--color-footer-bg: var(--footer-bg);
+
+	/* breakpoints */
+	--breakpoint-2xs: 375px;
+	--breakpoint-xs: 480px;
+	--breakpoint-sm: 640px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 1024px;
+	--breakpoint-xl: 1280px;
+	--breakpoint-2xl: 1440px;
+}

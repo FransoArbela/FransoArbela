@@ -6,15 +6,22 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 }
 
 export default function Input({ label, error, className = "", ...props }: InputProps) {
-	const inputId = props.id || `input-${label?.replace(/\s+/g, '-').toLowerCase()}`
-	
+	const inputId = props.id || `input-${label?.replace(/\s+/g, "-").toLowerCase()}`
+
 	return (
 		<div className="w-full">
-			{label && <label htmlFor={inputId} className="block mb-1 font-medium text-gray-700 text-sm">{label}</label>}
+			{label && (
+				<label
+					htmlFor={inputId}
+					className="block mb-1 font-medium text-[var(--color-text)] text-sm"
+				>
+					{label}
+				</label>
+			)}
 			<input
 				id={inputId}
-				className={`w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 ${
-					error ? "border-red-500" : "border-gray-300"
+				className={`w-full px-3 py-2 border rounded-sm bg-[var(--color-content-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] ${
+					error ? "border-red-500" : "border-[var(--color-secondary)]"
 				} ${className}`}
 				{...props}
 			/>
