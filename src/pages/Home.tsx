@@ -23,7 +23,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="justify-self-center self-center image-section md:col-start-2 2xs:row-start-1 2xs:col-start-1">
-							<div className="bg-[var(--color-secondary)]/25 rounded w-50 h-50"></div>
+							<div className="bg-(--color-secondary)/25 rounded w-50 h-50" />
 						</div>
 					</div>
 				</div>
@@ -70,7 +70,7 @@ export default function Home() {
 							href="/path/to/cv.pdf"
 							target="_blank"
 							rel="noreferrer"
-							className="font-bold text-[var(--color-accent)] hover:underline"
+							className="font-bold text-accent hover:underline"
 						>
 							here
 						</a>
@@ -78,7 +78,7 @@ export default function Home() {
 					</p>
 				</div>
 			</main>
-			<div className="col-start-2 bg-[var(--color-content-bg)] relative shadow-sm rounded-sm p-4 hidden lg:block">
+			<div className="col-start-2 bg-(--color-content-bg) relative shadow-sm rounded-sm p-4 hidden lg:block">
 				<SideBar />
 			</div>
 		</div>

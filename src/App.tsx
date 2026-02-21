@@ -1,9 +1,10 @@
-import { Route, Routes } from "react-router-dom"
 import Footer from "@/components/Footer"
 import { Nav } from "@/components/Nav"
 import Contact from "@/pages/Contact"
 import Home from "@/pages/Home"
 import _NotFound from "@/pages/NotFound"
+import { Route, Routes } from "react-router-dom"
+import DetailedProject from "./pages/DetailedProject"
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/contact" element={<Contact />} />
+					<Route path="/projects/:id" element={<DetailedProject />} />
 					<Route path="*" element={<_NotFound />} />
 				</Routes>
 			</main>

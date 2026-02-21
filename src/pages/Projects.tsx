@@ -3,10 +3,9 @@ import projectData from "../projectData"
 export default function Projects() {
 	return (
 		<div className="flex flex-col gap-5 w-full mt-8">
-			<h1 className="text-3xl font-bold">Projects</h1>
 			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 				{projectData.map((project) => (
-					<div key={project.id} className="border rounded-lg p-4">
+					<Link key={project.id} to={`/projects/${project.id}`} className="border rounded-lg p-4">
 						<img
 							src={project.imageUrl}
 							alt={project.name}
@@ -24,7 +23,7 @@ export default function Projects() {
 								</Link>
 							)}
 						</div>
-					</div>
+					</Link>
 				))}
 			</div>
 		</div>
