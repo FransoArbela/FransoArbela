@@ -1,10 +1,6 @@
 import { Link } from "react-router-dom"
 
-
 export const Nav = () => {
-
-
-
 	return (
 		<nav className="sticky top-0 z-20 mb-4 bg-[var(--color-content-bg)]/95 shadow-sm">
 			<div className="mx-auto flex w-full items-center justify-center px-10 py-3 lg:px-8 md:px-6 sm:px-5 2xs:px-4">

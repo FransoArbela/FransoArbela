@@ -30,7 +30,16 @@ const projects = [
 		name: "Semester Project 2",
 		description: "This is the third project.",
 		imageUrl: "https://via.placeholder.com/300x200",
-		body: `This is the body of the third project.`,
+		body: `I went through the auction house app and focused on fixing some performance issues that were slowing things down. I found three main problems and improved them so the app feels much faster and smoother to use.
+		First, browser caching was basically disabled. All fetch requests used cache: "no-store", which forced the app to request fresh data every time, even if nothing had changed. That created unnecessary network traffic and delays. I removed that setting so the browser can cache responses properly based on server headers. This alone reduced repeated requests when navigating between pages.
+		Second, the app had no internal caching. If a user opened a listing, left the page, and came back, it fetched everything again from the API. I created a small in-memory caching utility that stores responses for a short period (2–5 minutes depending on the data). Now, recently viewed content loads instantly without hitting the server again. This makes browsing feel much more responsive.
+		Third, the profile page was making three separate API requests: one for the profile, one for bids, and one for wins. After checking the API response, I realized all that data already comes from the main profile endpoint. I refactored it to use a single request instead of three.
+		
+		Overall results:
+		•	Profile requests reduced from 3 to 1 (67% fewer API calls)
+		•	Profile load time improved from ~2–3 seconds to ~0.5–1 second
+		•	Revisiting pages now loads instantly from cache
+		No extra libraries were added. The app is now faster, cleaner, and more efficient without increasing complexity.`,
 		projectUrl: "https://action-house.netlify.app/",
 		githubUrl: "https://github.com/Samal-Ibrahim/FED2-SP2-Auction-House",
 	},
