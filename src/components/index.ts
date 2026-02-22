@@ -1,2 +1,2 @@
-export { default as Button } from "./Button"
-export { Loading, LoadingFailed } from "./Loading"
+export { default as Button } from "./Button.js"
+export { Loading, LoadingFailed } from "./Loading.js"

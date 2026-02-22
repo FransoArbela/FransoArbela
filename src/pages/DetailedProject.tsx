@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-import projectData from "../projectData"
+import projectData from "../projectData.js"
 
 const DetailedProject = () => {
 	const { id } = useParams<{ id: string }>()

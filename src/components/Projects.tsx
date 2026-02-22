@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import projectData from "../projectData"
+import projectData from "../projectData.js"
 export default function Projects() {
 	return (
 		<div className="flex flex-col gap-5 w-full mt-8">

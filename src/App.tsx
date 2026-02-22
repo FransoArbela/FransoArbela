@@ -1,10 +1,10 @@
 import { Route, Routes } from "react-router-dom"
-import Footer from "@/components/Footer"
-import { Nav } from "@/components/Nav"
-import Contact from "@/pages/Contact"
-import Home from "@/pages/Home"
-import _NotFound from "@/pages/NotFound"
-import DetailedProject from "./pages/DetailedProject"
+import Footer from "#src/components/Footer.js"
+import { Nav } from "#src/components/Nav.js"
+import Contact from "#src/pages/Contact.js"
+import DetailedProject from "#src/pages/DetailedProject.js"
+import Home from "#src/pages/Home.js"
+import _NotFound from "#src/pages/NotFound.js"
 
 function App() {
 	return (
