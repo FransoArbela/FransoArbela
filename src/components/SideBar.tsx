@@ -4,10 +4,13 @@ export function SidebarNav() {
 	const items = [
 		{ id: "hero", label: "Hero" },
 		{ id: "about", label: "About" },
-		{ id: "skills", label: "Skills" },
 		{ id: "projects", label: "Projects" },
+		{ id: "skills", label: "Skills" },
 		{ id: "experience", label: "Experience" },
-		{ id: "cv", label: "Curriculum Vitae" },
+		{ id: "education", label: "Education" },
+		{ id: "certification", label: "Certification" },
+		{ id: "cv", label: "CV" },
+
 	]
 
 	const [activeId, setActiveId] = useState(items[0].id)

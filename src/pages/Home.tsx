@@ -8,19 +8,23 @@ export default function Home() {
 				<div id="hero" className="section-container">
 					<div>
 						<h1 className="hero-name">Samal Ibrahim</h1>
-						<h3>Software Developer</h3>
+						<h3>Front-End Developer working mainly with React & TypeScript.</h3>
 						<h3>
-							Front-End Developer — React & TypeScript I build clean, fast, user-focused web apps.
+							I build clean, structured web apps with a strong focus on performance, usability, and
+							real API integration.
 						</h3>
 					</div>
 				</div>
 				<div id="about" className="section-container">
 					<div className="gap-4 grid 2xs:grid-rows-2 md:grid-rows-1 grid-flow-col py-4 w-full">
 						<div className="text-section 2xs:row-start-2 md:row-start-1">
-							<h2>About Me</h2>
-							<p className="max-w-md">
-								I'm Samal Ibrahim, a software developer specializing in building web applications. I
-								love creating beautiful and functional user experiences.
+							<h2 className="mb-4">About Me</h2>
+							<p className="max-w-2xl text-sm leading-relaxed">
+								I'm a Front-End Developer currently studying at Noroff, focusing on React and
+								TypeScript. I enjoy building clean, structured applications with solid API
+								integration and clear data flow. Before transitioning into software, I worked in
+								technical installation, where I developed strong troubleshooting skills and
+								attention to detail.
 							</p>
 						</div>
 						<div className="justify-self-center self-center image-section md:col-start-2 2xs:row-start-1 2xs:col-start-1 rounded-full overflow-hidden w-68 h-68">
@@ -31,6 +35,10 @@ export default function Home() {
 				<div id="projects" className="section-container">
 					<h2 className="mb-4">Projects</h2>
 					<div className="projects w-full">
+						<p className="text-sm">
+							Here are some selected projects where I worked with React, APIs, and frontend
+							architecture.
+						</p>
 						<Projects />
 					</div>
 				</div>
@@ -127,15 +135,79 @@ export default function Home() {
 								))}
 							</div>
 						</div>
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+							<h3 className="font-bold text-lg mb-3">Languages</h3>
+							<div className="flex flex-wrap gap-2">
+								{["Norwegian", "English", "Kurdish"].map((language) => (
+									<span
+										key={language}
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+									>
+										{language}
+									</span>
+								))}
+							</div>
+						</div>
 					</div>
 				</div>
 
 				<div id="experience" className="section-container">
 					<h2>Experience</h2>
-					<ul className="list-disc list-inside space-y-1 px-6 mt-6">
-						<li>Noroff - Front-End Development</li>
-						<li>QA work</li>
-					</ul>
+					<div className="mt-6">
+						<h4 className="font-bold">AV Installation & Technical Setup</h4>
+						<h4>Evercom AS - Oslo</h4>
+						<h5 className="italic">
+							June 2025 - <span className="font-bold">Present</span>
+						</h5>
+						<ul className="list-disc list-inside space-y-1 px-6 mt-2">
+							<li>
+								Installation and configuration of screens, meeting room panels, and audio systems
+							</li>
+							<li>Working independently and in teams on client locations</li>
+							<li>Troubleshooting technical issues on-site</li>
+							<li>Planning tasks efficiently and delivering within deadlines</li>
+						</ul>
+					</div>
+
+					<div className="mt-6">
+						<h4 className="font-bold">Operations & Maintenance</h4>
+						<h4>Kongsberg Automotive - Raufoss</h4>
+						<h5 className="italic">Sept 2021 – May 2025</h5>
+						<ul className="list-disc list-inside space-y-1 px-6 mt-2">
+							<li>Maintenance and operation of automated production lines</li>
+							<li>Team-based work focused on quality and precision</li>
+							<li>Problem-solving in time-sensitive production environments</li>
+							<li>Ensuring reliability and efficiency under pressure</li>
+						</ul>
+					</div>
+				</div>
+				<div id="education" className="section-container">
+					<h2>Education</h2>
+					<div className="mt-6">
+						<h4 className="font-bold">Front-End Development (Online)</h4>
+						<h5 className="italic">Noroff - 2024-2026</h5>
+						<p>Focus on React, TypeScript, modern web development, and API integration.</p>
+					</div>
+					<div className="mt-6">
+						<h4 className="font-bold">IKT with University Admission Qualification</h4>
+						<h5 className="italic">Gjøvik Upper Secondary School - 2019-2022</h5>
+					</div>
+				</div>
+				<div id="certification" className="section-container">
+					<h2>Certification</h2>
+					<div className="mt-6">
+						<h4 className="font-bold">
+							CS50: Introduction to Computer Science - Harvard University
+						</h4>
+						<h5 className="italic">February 2026</h5>
+						<ul className="list-disc list-inside space-y-1 px-6 mt-2">
+							<li>C programming (memory & pointers)</li>
+							<li>Data structures & algorithms</li>
+							<li>SQL & relational databases</li>
+							<li>Python (Flask) web development</li>
+							<li>Authentication & sessions</li>
+						</ul>
+					</div>
 				</div>
 				<div id="cv" className="section-container min-h-170">
 					<h2>Curriculum Vitae</h2>
