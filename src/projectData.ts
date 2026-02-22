@@ -1,6 +1,6 @@
-import cssFr from "../public/css-tools.png"
-import sp2 from "../public/holidaze.png"
-import jsFr from "../public/zeebra.png"
+import cssFr from "./assets/css-tools.png"
+import jsFr from "./assets/holidaze.png"
+import sp2 from "./assets/zeebra.png"
 
 const projects = [
 	{
