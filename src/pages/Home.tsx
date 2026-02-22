@@ -6,18 +6,20 @@ export default function Home() {
 		<div className="grid grid-cols-[1fr_auto] gap-4">
 			<main className="flex flex-col gap-4">
 				<div id="hero" className="section-container">
-					<div>
+					<div className="flex flex-col gap-4">
 						<h1 className="hero-name">Samal Ibrahim</h1>
-						<h3>Front-End Developer working mainly with React & TypeScript.</h3>
-						<h3>
-							I build clean, structured web apps with a strong focus on performance, usability, and
-							real API integration.
-						</h3>
+						<div className="flex flex-col gap-2">
+							<h3>Front-End Developer working mainly with React & TypeScript.</h3>
+							<h3>
+								I build clean, structured web apps with a strong focus on performance, usability,
+								and real API integration.
+							</h3>
+						</div>
 					</div>
 				</div>
 				<div id="about" className="section-container">
-					<div className="gap-4 grid 2xs:grid-rows-2 md:grid-rows-1 grid-flow-col py-4 w-full">
-						<div className="text-section 2xs:row-start-2 md:row-start-1">
+					<div className="gap-4 grid 2xs:grid-rows-2 md:grid-rows-1 grid-flow-col py-4 w-full items-center">
+						<div className="text-section 2xs:row-start-2 md:row-start-1 bg-gray-100 h-fit py-8 px-4 rounded-md">
 							<h2 className="mb-4">About Me</h2>
 							<p className="max-w-2xl text-sm leading-relaxed">
 								I'm a Front-End Developer currently studying at Noroff, focusing on React and
@@ -209,7 +211,7 @@ export default function Home() {
 						</ul>
 					</div>
 				</div>
-				<div id="cv" className="section-container min-h-170">
+				<div id="cv" className="section-container">
 					<h2>Curriculum Vitae</h2>
 					<p>
 						You can download my CV{" "}
@@ -225,7 +227,7 @@ export default function Home() {
 					</p>
 				</div>
 			</main>
-			<div className="col-start-2 bg-color-content-bg relative shadow-sm rounded-sm p-4 hidden lg:block">
+			<div className="col-start-2 bg-color-content-bg relative shadow-sm rounded-sm p-8 hidden lg:block">
 				<SideBar />
 			</div>
 		</div>

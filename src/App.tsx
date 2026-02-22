@@ -8,7 +8,7 @@ import _NotFound from "#src/pages/NotFound.js"
 
 function App() {
 	return (
-		<div className="grid grid-rows-[auto_1fr_auto] mx-auto px-2 min-h-screen container bg-white shadow-lg">
+		<div className="grid grid-rows-[auto_1fr_auto] mx-auto min-h-screen container bg-white shadow-lg">
 			<header className="row-start-1">
 				<Nav />
 			</header>

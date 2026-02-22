@@ -7,7 +7,7 @@ export default function Projects() {
 				{projectData.map((project) => (
 					<div
 						key={project.id}
-						className="relative shadow-lg rounded-lg p-4 hover:shadow transition-shadow duration-200"
+						className="relative shadow-lg rounded-lg flex flex-col justify-between gap-2 p-4 hover:shadow active:shadow-md active:shadow-[#5c42b19c] transition-shadow duration-200"
 					>
 						<Link
 							to={`/projects/${project.id}`}
@@ -15,15 +15,19 @@ export default function Projects() {
 							aria-label={`View ${project.name}`}
 						/>
 
-						<img
-							src={project.imageUrl}
-							alt={project.name}
-							className="w-full h-48 object-cover rounded-md"
-						/>
-						<h2 className="text-xl font-semibold mt-2">{project.name}</h2>
-						<p className="text-gray-600">{project.description}</p>
-						<p className="text-black">{project.tech.join(", ")}</p>
-						<div className="relative w-fit">
+						<div className="flex flex-col gap-2">
+							<img
+								src={project.imageUrl}
+								alt={project.name}
+								className="w-full h-48 object-cover rounded-md"
+							/>
+							<h2 className="text-xl font-semibold ">{project.name}</h2>
+							<p className="text-gray-600">{project.description}</p>
+						</div>
+						<div className="relative">
+							<div className="bg-gray-100 p-2 w-full rounded-md">
+								<p className="text-[#000000ac]">{project.tech.join(", ")}</p>
+							</div>
 							<div>
 								<a
 									href={project.projectUrl}

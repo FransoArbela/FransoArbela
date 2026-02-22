@@ -88,7 +88,7 @@ export function SidebarNav() {
 						onClick={() => scrollTo(item.id)}
 						className={[
 							"block text-sm transition cursor-pointer",
-							isActive ? "text-black font-semibold" : "text-black/40 hover:text-black/70",
+							isActive ? "text-[#280150] font-semibold" : "text-black/40 hover:text-[#2d00c0]/70",
 						].join(" ")}
 					>
 						{item.label}
