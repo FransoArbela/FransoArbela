@@ -1,6 +1,6 @@
 const API_URL = import.meta.env.VITE_API_URL
 
-import type { Project } from "@/types/api.props"
+import type { Project } from "../types/api.props"
 
 export async function getProjects(): Promise<Project[]> {
 	const res = await fetch(`${API_URL}/projects`)

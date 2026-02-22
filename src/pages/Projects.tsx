@@ -1,6 +1,6 @@
 import { useQueryClient } from "@tanstack/react-query"
-import { Loading, LoadingFailed } from "@/components/Loading"
-import { useProjects } from "@/queries/projects.queries"
+import { Loading, LoadingFailed } from "../components/Loading"
+import { useProjects } from "../queries/projects.queries"
 
 export default function Projects() {
 	const { data, isLoading, isError } = useProjects()
@@ -56,7 +56,11 @@ export default function Projects() {
 					</article>
 				))}
 			</div>
-			<button type="button" className="bg-blue-600 px-4 py-2 text-white cursor-pointer" onClick={() => refetch()}>
+			<button
+				type="button"
+				className="bg-blue-600 px-4 py-2 text-white cursor-pointer"
+				onClick={() => refetch()}
+			>
 				refetch
 			</button>
 		</main>
