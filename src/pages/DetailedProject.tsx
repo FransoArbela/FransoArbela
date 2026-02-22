@@ -26,11 +26,11 @@ const DetailedProject = () => {
             </button>
 			{project ? (
 				<div className="flex flex-col justify-center items-center gap-4 min-h-screen ">
-					<div className="w-full max-w-3xl mx-auto">
+					<div className="w-full max-w-3xl mx-auto shadow-lg p-2">
 						<img className="w-full h-full object-cover" src={project.imageUrl} alt={project.name} />
 					</div>
 					<h1 className="text-2xl font-bold">{project.name}</h1>
-					<div className="max-w-3xl mx-auto flex flex-col gap-3">
+					<div className="max-w-3xl mx-auto flex flex-col gap-3 border-b pb-4">
 						{project.Body.map((paragraph, index) => (
 							<p
 								key={`${project.id}-paragraph-${index}`}

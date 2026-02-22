@@ -1,9 +1,9 @@
+import { Route, Routes } from "react-router-dom"
 import Footer from "@/components/Footer"
 import { Nav } from "@/components/Nav"
 import Contact from "@/pages/Contact"
 import Home from "@/pages/Home"
 import _NotFound from "@/pages/NotFound"
-import { Route, Routes } from "react-router-dom"
 import DetailedProject from "./pages/DetailedProject"
 
 function App() {

@@ -1,5 +1,5 @@
 import SideBar from "@/components/SideBar"
-import Projects from "./Projects"
+import Projects from "../components/Projects"
 export default function Home() {
 	return (
 		<div className="grid grid-cols-[1fr_auto] gap-4">

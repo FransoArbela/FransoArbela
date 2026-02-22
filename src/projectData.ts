@@ -1,11 +1,10 @@
-import placeholderImg from "../public/placeholder.avif"
 
 const projects = [
 	{
 		id: 1,
 		name: "CSS Frameworks ",
 		description: "This is the first project.",
-		imageUrl: placeholderImg,
+		imageUrl: "/public/css-tools.png",
 		Body: [
 			"I updated the project to make it more stable and easier to maintain, without changing the overall design.",
 			"The biggest change was moving the feed post content out of static HTML and into a data array in posts.js. Then I updated script.js to import that array and render posts dynamically using map(). Before, the feed had repeated markup directly in index.html. Now it uses one container that JavaScript fills. This makes it way easier to edit posts, and it gives a proper structure if I later want to add features like search, filter, or sort from a single source of truth.",
@@ -24,7 +23,7 @@ const projects = [
 		id: 2,
 		name: "JavaScript Frameworks",
 		description: "This is the second project.",
-		imageUrl: placeholderImg,
+		imageUrl: "/public/zeebra.png",
 		Body: [
 			"I did a focused refactor and cleanup pass on JSF project after reviewing the code in detail. The goal wasn’t to redesign anything, but to fix weak spots, improve stability, and align the project more with React best practices.",
 			'One of the biggest fixes was around URL parameter handling. In my ViewSingleProduct component, I was extracting the product ID using window.location.href.split("=")[1]. It worked, but it was fragile and not how React Router is meant to be used. I refactored this to use the useParams() hook from react-router-dom, which is the correct and more reliable approach. I also updated the product links from /product/id=$\\{id} to /product/\\${id} to follow cleaner route conventions.',
@@ -38,7 +37,7 @@ const projects = [
 		id: 3,
 		name: "Semester Project 2",
 		description: "This is the third project.",
-		imageUrl: placeholderImg,
+		imageUrl: "/public/holidaze.png",
 		Body: [
 			"I went through the Auction House app and focused on fixing some performance issues that were slowing things down. I found three main problems and improved them so the app feels much faster and smoother to use.",
 			'First, browser caching was disabled, probably my misstake. All fetch requests used cache: "no-store", which forced the app to request fresh data every time, even if nothing had changed. That created unnecessary network traffic and delays. I removed that setting so the browser can cache responses properly based on server headers. This alone reduced repeated requests when navigating between pages.',
