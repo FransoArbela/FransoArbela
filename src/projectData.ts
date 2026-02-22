@@ -7,6 +7,7 @@ const projects = [
 		id: 1,
 		name: "CSS Frameworks ",
 		description: "This is the first project.",
+		tech: ["HTML", "CSS", "JavaScript"],
 		imageUrl: cssFr,
 		Body: [
 			"I updated the project to make it more stable and easier to maintain, without changing the overall design.",
@@ -26,6 +27,7 @@ const projects = [
 		id: 2,
 		name: "JavaScript Frameworks",
 		description: "This is the second project.",
+		tech: ["JavaScript", "React", "CSS"],
 		imageUrl: jsFr,
 		Body: [
 			"I did a focused refactor and cleanup pass on JSF project after reviewing the code in detail. The goal wasn’t to redesign anything, but to fix weak spots, improve stability, and align the project more with React best practices.",
@@ -40,6 +42,7 @@ const projects = [
 		id: 3,
 		name: "Semester Project 2",
 		description: "This is the third project.",
+		tech: ["React", "JavaScript", "CSS"],
 		imageUrl: sp2,
 		Body: [
 			"I went through the Auction House app and focused on fixing some performance issues that were slowing things down. I found three main problems and improved them so the app feels much faster and smoother to use.",

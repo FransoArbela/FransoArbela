@@ -1,3 +1,4 @@
+import samalIbrahim from "#src/assets/samal-ibrahim.png"
 import Projects from "#src/components/Projects.js"
 import SideBar from "#src/components/SideBar.js"
 export default function Home() {
@@ -22,31 +23,9 @@ export default function Home() {
 								love creating beautiful and functional user experiences.
 							</p>
 						</div>
-						<div className="justify-self-center self-center image-section md:col-start-2 2xs:row-start-1 2xs:col-start-1">
-							<div className="bg-(--color-secondary)/25 rounded w-50 h-50" />
+						<div className="justify-self-center self-center image-section md:col-start-2 2xs:row-start-1 2xs:col-start-1 rounded-full overflow-hidden w-68 h-68">
+							<img src={samalIbrahim} alt="Samal Ibrahim" className="w-full h-full object-cover" />
 						</div>
-					</div>
-				</div>
-				<div id="skills" className="section-container">
-					<div className="skills">
-						<h2>Skills</h2>
-						<ul className="list-disc list-inside space-y-1 px-6 mt-6">
-							<li>
-								<span className="font-bold">Core:</span> HTML, CSS, JavaScript
-							</li>
-							<li>
-								<span className="font-bold">Frameworks:</span> React, Vite, Tailwind
-							</li>
-							<li>
-								<span className="font-bold">State & Data:</span> Zustand, REST APIs
-							</li>
-							<li>
-								<span className="font-bold">Tooling:</span> Git, GitHub, Biome/ESLint, Figma
-							</li>
-							<li>
-								<span className="font-bold">Backend (basic):</span> Supabase, Node/Express
-							</li>
-						</ul>
 					</div>
 				</div>
 				<div id="projects" className="section-container">
@@ -55,6 +34,102 @@ export default function Home() {
 						<Projects />
 					</div>
 				</div>
+				<div id="skills" className="section-container">
+					<h2 className="mb-6 ">Skills</h2>
+					<div className="grid gap-6 md:grid-cols-2">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+							<h3 className="font-bold text-lg mb-3">Frontend Core</h3>
+							<div className="flex flex-wrap gap-2">
+								{[
+									"HTML5",
+									"CSS3",
+									"JavaScript",
+									"TypeScript",
+									"Responsive Design",
+									"Accessibility",
+								].map((skill) => (
+									<span
+										key={skill}
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+									>
+										{skill}
+									</span>
+								))}
+							</div>
+						</div>
+
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+							<h3 className="font-bold text-lg mb-3">Frameworks &amp; Libraries</h3>
+							<div className="flex flex-wrap gap-2">
+								{["React", "TanStack Query", "Vite", "Tailwind CSS"].map((skill) => (
+									<span
+										key={skill}
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+									>
+										{skill}
+									</span>
+								))}
+							</div>
+						</div>
+
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+							<h3 className="font-bold text-lg mb-3">State &amp; Data</h3>
+							<div className="flex flex-wrap gap-2">
+								{["REST APIs", "JWT Auth", "LocalStorage", "React Context"].map((skill) => (
+									<span
+										key={skill}
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+									>
+										{skill}
+									</span>
+								))}
+							</div>
+						</div>
+
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+							<h3 className="font-bold text-lg mb-3">Backend (Basic)</h3>
+							<div className="flex flex-wrap gap-2">
+								{["Node.js", "Express", "SQLite", "Supabase"].map((skill) => (
+									<span
+										key={skill}
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+									>
+										{skill}
+									</span>
+								))}
+							</div>
+						</div>
+
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+							<h3 className="font-bold text-lg mb-3">Tooling</h3>
+							<div className="flex flex-wrap gap-2">
+								{["Git", "GitHub", "Biome", "Figma", "Postman", "VS Code"].map((skill) => (
+									<span
+										key={skill}
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+									>
+										{skill}
+									</span>
+								))}
+							</div>
+						</div>
+
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+							<h3 className="font-bold text-lg mb-3">CS Foundations</h3>
+							<div className="flex flex-wrap gap-2">
+								{["C", "SQL", "Flask", "Problem-Solving"].map((skill) => (
+									<span
+										key={skill}
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+									>
+										{skill}
+									</span>
+								))}
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div id="experience" className="section-container">
 					<h2>Experience</h2>
 					<ul className="list-disc list-inside space-y-1 px-6 mt-6">
@@ -78,7 +153,7 @@ export default function Home() {
 					</p>
 				</div>
 			</main>
-			<div className="col-start-2 bg-(--color-content-bg) relative shadow-sm rounded-sm p-4 hidden lg:block">
+			<div className="col-start-2 bg-color-content-bg relative shadow-sm rounded-sm p-4 hidden lg:block">
 				<SideBar />
 			</div>
 		</div>

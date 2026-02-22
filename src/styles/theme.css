@@ -16,13 +16,14 @@
 	--text: #050316;
 	--text-secondary: #f4f4f4;
 
-	--bg: #fafafa;
+	--bg: #f5f7fa;
 
 	--primary: #6e45a1;
 	--secondary: #c7c3f3;
-	--accent: #4584a1;
+	--accent: #7845a1;
 
-	--footer-bg: #33283f;
+	--bg-nav: #3e345b;
+	--footer-bg: #322658;
 }
 
 @theme {
@@ -40,6 +41,7 @@
 	--color-text-secondary: var(--text-secondary);
 
 	--color-accent: var(--accent);
+	--color-bg-nav: var(--bg-nav);
 	--color-footer-bg: var(--footer-bg);
 
 	/* breakpoints */
