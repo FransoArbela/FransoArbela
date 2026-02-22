@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.btn-primary {
+	@apply bg-[var(--color-primary)] text-[var(--color-text-secondary)] hover:bg-[var(--color-accent)] px-16 py-1.5 rounded-sm text-sm shadow-sm transition-colors;
+}
+
+.btn-secondary {
+	@apply bg-[var(--color-secondary)] text-[var(--color-text)] hover:bg-[var(--color-accent)] hover:text-[var(--color-text-secondary)] px-8 py-1.5 rounded-sm text-sm shadow-sm transition-colors;
+}
+
+.card {
+	@apply rounded bg-[var(--color-content-bg)] p-4 shadow-sm transition-shadow duration-200 hover:shadow-md;
+}
+
+.section-container {
+	@apply w-full bg-[var(--color-content-bg)] shadow-sm rounded min-h-72 transition-shadow duration-300 flex flex-col px-10 lg:px-8 md:px-6 sm:px-5 2xs:px-4 justify-center py-8 opacity-95 items-start scroll-mt-24;
+}
+
+.input {
+	@apply w-full bg-white border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)] focus:border-transparent transition-colors;
+}

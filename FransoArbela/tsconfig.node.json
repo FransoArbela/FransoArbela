@@ -1,9 +1,7 @@
 {
-  "compilerOptions": {
-    "composite": true,
-    "emit": true
-  },
-  "include": [
-    "**/*.ts"
-  ]
+	"compilerOptions": {
+		"composite": true,
+		"emit": true
+	},
+	"include": ["**/*.ts"]
 }
