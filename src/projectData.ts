@@ -1,6 +1,6 @@
-import cssFr from "./assets/css-tools.png"
-import sp2 from "./assets/holidaze.png"
-import jsFr from "./assets/zeebra.png"
+// import cssFr from "./assets/css-tools.png"
+// import sp2 from "./assets/holidaze.png"
+// import jsFr from "./assets/zeebra.png"
 
 const projects = [
 	// {
@@ -66,7 +66,7 @@ const projects = [
 		name: "CSS Frameworks ",
 		description: "Example",
 		tech: ["HTML", "Tailwind CSS", "JavaScript"],
-		imageUrl: cssFr,
+		imageUrl: "./assets/css-tools.png",
 		Body: [
 			"this is a example of using CSS frameworks to build a page.",
 		],
@@ -78,7 +78,7 @@ const projects = [
 		name: "CSS Frameworks ",
 		description: "Example",
 		tech: ["HTML", "Tailwind CSS", "JavaScript"],
-		imageUrl: cssFr,
+		imageUrl: "./assets/css-tools.png",
 		Body: [
 			"this is a example of using CSS frameworks to build a page.",
 		],
@@ -90,7 +90,7 @@ const projects = [
 		name: "CSS Frameworks ",
 		description: "Example",
 		tech: ["HTML", "Tailwind CSS", "JavaScript"],
-		imageUrl: cssFr,
+		imageUrl: "./assets/css-tools.png",
 		Body: [
 			"this is a example of using CSS frameworks to build a page.",
 		],
