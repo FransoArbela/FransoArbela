@@ -29,7 +29,7 @@ export default function Home() {
 								attention to detail.
 							</p>
 						</div>
-						<div className="justify-self-center self-center image-section md:col-start-2 2xs:row-start-1 2xs:col-start-1 rounded-full overflow-hidden w-68 h-68">
+						<div className="justify-self-center self-center image-section md:col-start-2 2xs:row-start-1 2xs:col-start-1 rounded-full overflow-hidden w-68 h-68 shadow-md border-4 border-gray-100">
 							<img src={samalIbrahim} alt="Samal Ibrahim" className="w-full h-full object-cover" />
 						</div>
 					</div>
@@ -47,7 +47,7 @@ export default function Home() {
 				<div id="skills" className="section-container">
 					<h2 className="mb-6 ">Skills</h2>
 					<div className="grid gap-6 md:grid-cols-2">
-						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6 rounded-md">
 							<h3 className="font-bold text-lg mb-3">Frontend Core</h3>
 							<div className="flex flex-wrap gap-2">
 								{[
@@ -60,7 +60,7 @@ export default function Home() {
 								].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -68,13 +68,13 @@ export default function Home() {
 							</div>
 						</div>
 
-						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6 rounded-md">
 							<h3 className="font-bold text-lg mb-3">Frameworks &amp; Libraries</h3>
 							<div className="flex flex-wrap gap-2">
 								{["React", "TanStack Query", "Vite", "Tailwind CSS"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -82,13 +82,13 @@ export default function Home() {
 							</div>
 						</div>
 
-						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6 rounded-md">
 							<h3 className="font-bold text-lg mb-3">State &amp; Data</h3>
 							<div className="flex flex-wrap gap-2">
 								{["REST APIs", "JWT Auth", "LocalStorage", "React Context"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -96,13 +96,13 @@ export default function Home() {
 							</div>
 						</div>
 
-						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6 rounded-md">
 							<h3 className="font-bold text-lg mb-3">Backend (Basic)</h3>
 							<div className="flex flex-wrap gap-2">
 								{["Node.js", "Express", "SQLite", "Supabase"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -110,13 +110,13 @@ export default function Home() {
 							</div>
 						</div>
 
-						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6 rounded-md">
 							<h3 className="font-bold text-lg mb-3">Tooling</h3>
 							<div className="flex flex-wrap gap-2">
 								{["Git", "GitHub", "Biome", "Figma", "Postman", "VS Code"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -124,26 +124,26 @@ export default function Home() {
 							</div>
 						</div>
 
-						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6 rounded-md">
 							<h3 className="font-bold text-lg mb-3">CS Foundations</h3>
 							<div className="flex flex-wrap gap-2">
 								{["C", "SQL", "Flask", "Problem-Solving"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
 								))}
 							</div>
 						</div>
-						<div className="shadow-md py-6 px-4 flex flex-col gap-6">
+						<div className="shadow-md py-6 px-4 flex flex-col gap-6 rounded-md">
 							<h3 className="font-bold text-lg mb-3">Languages</h3>
 							<div className="flex flex-wrap gap-2">
 								{["Norwegian", "English", "Kurdish"].map((language) => (
 									<span
 										key={language}
-										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{language}
 									</span>
