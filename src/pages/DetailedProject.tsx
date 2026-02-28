@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom"
+import { Button, LoadingFailed } from "#src/components/index.js"
 import projectData from "../projectData.js"
 
 const DetailedProject = () => {
@@ -9,8 +10,8 @@ const DetailedProject = () => {
 
 	return (
 		<div className="bg-white p-4">
-			<button
-				type="button"
+			<Button
+				variant="secondary"
 				onClick={() => {
 					navigator.clipboard.writeText(window.location.href)
 					const notification = document.createElement("div")
@@ -21,10 +22,10 @@ const DetailedProject = () => {
 						document.body.removeChild(notification)
 					}, 3000)
 				}}
-				className="mb-4 px-4 py-2 bg-purple-800 text-white rounded hover:bg-purple-900 cursor-pointer"
+				className="mb-4"
 			>
 				Copy URL
-			</button>
+			</Button>
 			{project ? (
 				<div className="flex flex-col justify-center items-center gap-4 min-h-screen ">
 					<div className="w-full max-w-3xl mx-auto shadow-lg p-2">
@@ -43,7 +44,7 @@ const DetailedProject = () => {
 					</div>
 				</div>
 			) : (
-				<p>Project not found</p>
+				<LoadingFailed />
 			)}
 		</div>
 	)
