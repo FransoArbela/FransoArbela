@@ -19,7 +19,7 @@ export default function Home() {
 				</div>
 				<div id="about" className="section-container">
 					<div className="gap-4 grid 2xs:grid-rows-2 md:grid-rows-1 grid-flow-col py-4 w-full items-center">
-						<div className="text-section 2xs:row-start-2 md:row-start-1 bg-gray-100 h-fit py-8 px-4 rounded-md">
+						<div className="text-section 2xs:row-start-2 md:row-start-1 bg-gray-100 py-8 px-4 rounded-md shadow-md">
 							<h2 className="mb-4">About Me</h2>
 							<p className="max-w-2xl text-sm leading-relaxed">
 								I'm a Front-End Developer currently studying at Noroff, focusing on React and
@@ -161,7 +161,7 @@ export default function Home() {
 						<h5 className="italic">
 							June 2025 - <span className="font-bold">Present</span>
 						</h5>
-						<ul className="list-disc list-inside space-y-1 px-6 mt-2">
+						<ul className="list-disc list-inside space-y-1 mt-2 bg-gray-100 py-8 px-4 rounded-md w-full shadow-md">
 							<li>
 								Installation and configuration of screens, meeting room panels, and audio systems
 							</li>
@@ -175,7 +175,7 @@ export default function Home() {
 						<h4 className="font-bold">Operations & Maintenance</h4>
 						<h4>Kongsberg Automotive - Raufoss</h4>
 						<h5 className="italic">Sept 2021 – May 2025</h5>
-						<ul className="list-disc list-inside space-y-1 px-6 mt-2">
+						<ul className="list-disc list-inside space-y-1 mt-2 bg-gray-100 py-8 px-4 rounded-md w-full shadow-md">
 							<li>Maintenance and operation of automated production lines</li>
 							<li>Team-based work focused on quality and precision</li>
 							<li>Problem-solving in time-sensitive production environments</li>
@@ -191,7 +191,7 @@ export default function Home() {
 						<p>Focus on React, TypeScript, modern web development, and API integration.</p>
 					</div>
 					<div className="mt-6">
-						<h4 className="font-bold">IKT with University Admission Qualification</h4>
+						<h4 className="font-bold">ICT with University Admission Qualification</h4>
 						<h5 className="italic">Gjøvik Upper Secondary School - 2019-2022</h5>
 					</div>
 				</div>
@@ -202,7 +202,7 @@ export default function Home() {
 							CS50: Introduction to Computer Science - Harvard University
 						</h4>
 						<h5 className="italic">February 2026</h5>
-						<ul className="list-disc list-inside space-y-1 px-6 mt-2">
+						<ul className="list-disc list-inside space-y-1 mt-2 bg-gray-100 py-8 px-4 rounded-md w-full shadow-md">
 							<li>C programming (memory & pointers)</li>
 							<li>Data structures & algorithms</li>
 							<li>SQL & relational databases</li>

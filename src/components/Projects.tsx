@@ -25,8 +25,8 @@ export default function Projects() {
 							<p className="text-gray-600">{project.description}</p>
 						</div>
 						<div className="relative">
-							<div className="bg-gray-100 p-2 w-full rounded-md">
-								<p className="text-[#000000ac]">{project.tech.join(", ")}</p>
+							<div className="bg-gray-100 p-2 w-full rounded-md shadow-sm">
+								<p className="text-[#000000ac] ">{project.tech.join(", ")}</p>
 							</div>
 							<div>
 								<a
