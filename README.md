@@ -1,50 +1,75 @@
-# Samal Ibrahim
+# Samal Ibrahim Portfolio
 
-Front-end developer working mainly with React and TypeScript.
+A personal portfolio website built with React and TypeScript to present selected front-end projects, technical skills, and contact information in a clean and responsive layout.
 
-I’m currently finishing my Front-End studies at Noroff, where I build responsive web applications with API integration and structured component architecture.
+## Description
 
-Alongside that, I completed CS50 (Harvard) to strengthen my understanding of computer science fundamentals like algorithms, data structures, C programming, SQL, and backend basics with Python (Flask).
+This project is a multi-page portfolio application created to showcase my development work and learning progress.
 
-I care about writing clean code, understanding how things work under the hood, and gradually moving toward full-stack development.
+It includes:
 
-## Tech
+- A homepage introduction and overview
+- A projects section with detailed project pages
+- Routing with dedicated pages for contact and not-found handling
+- Responsive design with reusable components and shared styling
 
-React  
-TypeScript  
-JavaScript  
-HTML / CSS  
-Tailwind  
+## Built With
 
-Python (Flask)  
-SQL  
+This project uses the following tech stack:
 
-Git & GitHub  
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [React Router](https://reactrouter.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vite.dev/)
+- [Biome](https://biomejs.dev/)
 
-## Focus Right Now
+## Getting Started
 
-- Writing better React architecture
-- Strengthening backend fundamentals
-- Building projects that solve real problems
-Tools:
-- Git & GitHub
-- Figma
+### Installing
 
-## Projects
+To get this project running locally:
 
-You can find my featured projects below. Most focus on:
-- API integration
-- Component architecture
-- Responsive layouts
-- State management
+1. Clone the repository:
 
-## Currently Working On
+```bash
+git clone git@github.com:Samal-Ibrahim/Samal-Ibrahim.git
+```
 
-- Improving backend skills
-- Writing cleaner and more scalable React code
-- Strengthening problem-solving through algorithm practice
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+### Running
+
+To run the development server:
+
+```bash
+npm run dev
+```
+
+To build for production:
+
+```bash
+npm run build
+```
+
+## Contributing
+
+Contributions are welcome. If you want to contribute, please open an issue first to discuss the change, then submit a pull request for review.
 
 ## Contact
 
-Email: ibrahim.samal1999@gmail.com
-LinkedIn: linkedin.com/in/samal-ibrahim
+- Email: ibrahim.samal1999@gmail.com
+- LinkedIn: [linkedin.com/in/samal-ibrahim](https://www.linkedin.com/in/samal-ibrahim)
+
+## License
+
+No license has been added yet. If needed, this section will be updated with a license file.
+
+## Acknowledgments
+
+- Noroff Front-End studies and project briefs
+- Open-source tools and documentation from the React, Vite, Tailwind, and TypeScript communities
