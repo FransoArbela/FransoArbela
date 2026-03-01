@@ -1,6 +1,9 @@
 import samalIbrahim from "#src/assets/samal-ibrahim.png"
 import Projects from "#src/components/Projects.js"
 import SideBar from "#src/components/SideBar.js"
+
+const cvFile = new URL("../assets/Samal-Ibrahim-cv.pdf", import.meta.url).href
+
 export default function Home() {
 	return (
 		<div className="grid grid-cols-[1fr_auto] gap-4">
@@ -216,7 +219,8 @@ export default function Home() {
 					<p>
 						You can download my CV{" "}
 						<a
-							href="/path/to/cv.pdf"
+							href={cvFile}
+							download="Samal-Ibrahim-cv.pdf"
 							target="_blank"
 							rel="noreferrer"
 							className="font-bold text-accent hover:underline"
