@@ -1,11 +1,12 @@
+import sp2 from "./assets/action-house.png"
 import cssFr from "./assets/css-tools.png"
-import sp2 from "./assets/holidaze.png"
+import holidaze from "./assets/holidaze.png"
 import jsFr from "./assets/zeebra.png"
 
 const projects = [
 	{
 		id: 1,
-		name: "CSS Frameworks ",
+		name: "CSS Frameworks CA",
 		description: "This project was a example of using CSS frameworks to build a page.",
 		tech: ["HTML", "Tailwind CSS", "JavaScript"],
 		imageUrl: cssFr,
@@ -19,9 +20,9 @@ const projects = [
 	},
 	{
 		id: 2,
-		name: "JavaScript Frameworks",
+		name: "Zeebra",
 		description:
-			"JS Frameworks was a project where I built a simple e-commerce site using React, fetching data from a public API and implementing a shopping cart.",
+			"Zeebra was a project where I built a simple e-commerce site using React, fetching data from a public API and implementing a shopping cart.",
 		tech: ["TypeScript", "React", "React-Router", "Tailwind CSS", "Biome", "Vite", "Vitest"],
 		imageUrl: jsFr,
 		Body: [
@@ -33,7 +34,7 @@ const projects = [
 	},
 	{
 		id: 3,
-		name: "Semester Project 2",
+		name: "Auction House",
 		description:
 			"Auction House was a project where I built a marketplace app using React, fetching data from a custom API and implementing features like browsing listings, user profiles, and bidding.",
 		tech: ["JavaScript", "Vite", "Tailwind CSS"],
@@ -44,6 +45,25 @@ const projects = [
 		],
 		projectUrl: "https://action-house.netlify.app/",
 		githubUrl: "https://github.com/Samal-Ibrahim/FED2-SP2-Auction-House",
+	},
+	{
+		id: 4,
+		name: "Holidaze",
+		description:
+			"Holidaze was a project where I built a holiday booking app using React, fetching data from a custom API and implementing features like browsing listings, user profiles, and booking.",
+		tech: [
+			"JavaScript",
+			"Vite",
+			"Tailwind CSS",
+			"React",
+		],
+		imageUrl: holidaze,
+		Body: [
+			"Holidaze is a front-end booking platform built to simulate a complete accommodation experience, from browsing venues to managing bookings. On the home page, users can explore a large list of venues shown as cards with key details like price per night, guest capacity, location info, and quick access to each venue page. The listing view supports filtering and pagination so it still feels usable even with a lot of results. Users can open individual venue pages to view more details and complete bookings through a date-based flow. Authentication is part of the core experience, with dedicated login and register routes, and the interface updates based on whether the user is signed in.",
+			"On the technical side, the project is built with JavaScript and Vite using a modular ES module structure where API logic, page logic, and shared utilities are separated for maintainability. Styling is handled with Tailwind CSS to keep the layout responsive and consistent across pages. Data is fetched from the Holidaze API using the Fetch API, and localStorage is used for session-related data such as token, profile state, theme preference, and booking-related values. I also used Flatpickr for date selection in the booking flow and Font Awesome for iconography. The app includes practical UX improvements like route-based rendering, dark and light mode support, simple in-memory caching for faster repeated views, and auth-aware UI states. Overall, this project focuses on realistic booking flows, clean API integration, and structured front-end architecture without relying on heavy frameworks.",
+		],
+		projectUrl: "https://samal-holidaze.netlify.app/",
+		githubUrl: "https://github.com/Samal-Ibrahim/PE2_Holidaze",
 	},
 ]
 
