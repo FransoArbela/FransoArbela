@@ -25,10 +25,11 @@ export default function Home() {
 						<div className="text-section 2xs:row-start-2 md:row-start-1 bg-gray-100 py-8 px-4 rounded-md shadow-md">
 							<h2 className="mb-4">About Me</h2>
 							<p className="max-w-2xl text-sm leading-relaxed">
-								I'm a Front-End Developer focused on React and TypeScript. I enjoy building clean,
-								structured applications with solid API integration and clear data flow. I also work
-								in technical installation, where I continue to strengthen my troubleshooting skills
-								and attention to detail.
+								I'm a Front-End Developer currently studying at Noroff, focusing on React and
+								TypeScript. I enjoy building clean, structured applications with solid API
+								integration and clear data flow. Before transitioning into software, I worked in
+								technical installation, where I developed strong troubleshooting skills and
+								attention to detail.
 							</p>
 						</div>
 						<div className="justify-self-center self-center image-section md:col-start-2 2xs:row-start-1 2xs:col-start-1 rounded-full overflow-hidden w-68 h-68 shadow-md border-4 border-gray-100">
@@ -62,7 +63,7 @@ export default function Home() {
 								].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium shadow-md"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -76,7 +77,7 @@ export default function Home() {
 								{["React", "TanStack Query", "Vite", "Tailwind CSS"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium shadow-md"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -90,7 +91,7 @@ export default function Home() {
 								{["REST APIs", "JWT Auth", "LocalStorage", "React Context"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium shadow-md"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -104,7 +105,7 @@ export default function Home() {
 								{["Node.js", "Express", "SQLite", "Supabase"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium shadow-md"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -118,7 +119,7 @@ export default function Home() {
 								{["Git", "GitHub", "Biome", "Figma", "Postman", "VS Code"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium shadow-md"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -132,7 +133,7 @@ export default function Home() {
 								{["C", "SQL", "Flask", "Problem-Solving"].map((skill) => (
 									<span
 										key={skill}
-										className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium shadow-md"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{skill}
 									</span>
@@ -145,7 +146,7 @@ export default function Home() {
 								{["Norwegian", "English", "Kurdish"].map((language) => (
 									<span
 										key={language}
-										className="px-3 py-1 bg-primary/10 text-primary border border-primary/20 rounded-full text-sm font-medium shadow-md"
+										className="px-3 py-1 bg-accent bg-opacity-10 text-white rounded-full text-sm font-medium shadow-md"
 									>
 										{language}
 									</span>
