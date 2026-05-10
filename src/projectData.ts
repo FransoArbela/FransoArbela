@@ -1,5 +1,6 @@
 import sp2 from "./assets/action-house.png"
 import cssFr from "./assets/css-tools.png"
+import halkio from "./assets/halkio-sushi.jpg"
 import holidaze from "./assets/holidaze.png"
 import jsFr from "./assets/zeebra.png"
 
@@ -51,12 +52,7 @@ const projects = [
 		name: "Holidaze",
 		description:
 			"Holidaze was a project where I built a holiday booking app using React, fetching data from a custom API and implementing features like browsing listings, user profiles, and booking.",
-		tech: [
-			"JavaScript",
-			"Vite",
-			"Tailwind CSS",
-			"React",
-		],
+		tech: ["JavaScript", "Vite", "Tailwind CSS", "React"],
 		imageUrl: holidaze,
 		Body: [
 			"Holidaze is a front-end booking platform built to simulate a complete accommodation experience, from browsing venues to managing bookings. On the home page, users can explore a large list of venues shown as cards with key details like price per night, guest capacity, location info, and quick access to each venue page. The listing view supports filtering and pagination so it still feels usable even with a lot of results. Users can open individual venue pages to view more details and complete bookings through a date-based flow. Authentication is part of the core experience, with dedicated login and register routes, and the interface updates based on whether the user is signed in.",
@@ -64,6 +60,18 @@ const projects = [
 		],
 		projectUrl: "https://samal-holidaze.netlify.app/",
 		githubUrl: "https://github.com/Samal-Ibrahim/PE2_Holidaze",
+	},
+	{
+		id: 5,
+		name: "Halkio Sushi",
+		description:
+			"Halkio Sushi is a Lithuania-based restaurant known for fresh, flavorful food. I recreated their single-page website from scratch, focusing on a clean layout and simple filtering functionality while ensuring the design stayed true to their brand identity.",
+		tech: ["TypeScript", "Vite", "Tailwind CSS", "React-router", "Zustand"],
+		imageUrl: halkio,
+		Body: [
+			"Built with React, Vite, TypeScript, Tailwind CSS and Zustand. Developed using AI-assisted tooling — I designed the architecture, made all technical decisions, reviewed and understood every line of code, and directed the implementation throughout.",
+		],
+		projectUrl: "https://visionary-medovik-5c48ba.netlify.app/",
 	},
 ]
 
